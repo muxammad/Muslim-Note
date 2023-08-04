@@ -9,5 +9,6 @@ namespace Muslim_Note.Domain.Entities
 {
     public class Reminder : Auditable
     {
+        public string Describtion { get; set; } = string.Empty;
     }
 }
