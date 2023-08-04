@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Muslim_Note.Domain.Entities
 {
-    internal class Note
+    public class Note
     {
     }
 }
