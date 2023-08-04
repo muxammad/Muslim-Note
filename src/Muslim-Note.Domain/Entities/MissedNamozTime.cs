@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Muslim_Note.Domain.Entities;
 
-namespace Muslim_Note.Domain.Entities
+public class MissedNamozTime
 {
-    internal class NamozTime
-    {
-    }
+    public long UserId { get; set; }
+    public User User { get; set; }
+    public DateOnly MissedDay { get; set; }
+    public string Describtion { get; set; } = string.Empty;
+
 }
