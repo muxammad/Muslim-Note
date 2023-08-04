@@ -3,10 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muslim-Note.Domain", "src\Muslim-Note.Domain\Muslim-Note.Domain.csproj", "{10169630-4A94-4EDD-858A-AC46BA307232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muslim-Note.DataAccess", "src\Muslim-Note.DataAccess\Muslim-Note.DataAccess.csproj", "{28443229-3372-4F22-88BC-78EF01846760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muslim-Note.Service", "src\Muslim-Note.Service\Muslim-Note.Service.csproj", "{ADD85881-658F-44BC-B6AB-0D8509A0AE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muslim-Note.WebPage", "src\Muslim-Note.WebPage\Muslim-Note.WebPage.csproj", "{FD167156-CE33-41B7-B963-3BCB9FEDB3CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10169630-4A94-4EDD-858A-AC46BA307232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10169630-4A94-4EDD-858A-AC46BA307232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10169630-4A94-4EDD-858A-AC46BA307232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10169630-4A94-4EDD-858A-AC46BA307232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28443229-3372-4F22-88BC-78EF01846760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28443229-3372-4F22-88BC-78EF01846760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28443229-3372-4F22-88BC-78EF01846760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28443229-3372-4F22-88BC-78EF01846760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD85881-658F-44BC-B6AB-0D8509A0AE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD85881-658F-44BC-B6AB-0D8509A0AE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD85881-658F-44BC-B6AB-0D8509A0AE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD85881-658F-44BC-B6AB-0D8509A0AE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD167156-CE33-41B7-B963-3BCB9FEDB3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD167156-CE33-41B7-B963-3BCB9FEDB3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD167156-CE33-41B7-B963-3BCB9FEDB3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD167156-CE33-41B7-B963-3BCB9FEDB3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
